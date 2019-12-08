@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Você disse Brigadeiro?</title>
+    <link rel="icon" href="assets/icon/icon.png" />
+
+    <!-- Bibliotecas CSS -->
+    <link rel="stylesheet" type="text/css" href="node_modules/materialize-css/dist/css/materialize.min.css" />
+    <link rel="stylesheet" type="text/css" href="node_modules/fontawesome-free-5.11.2-web/css/all.css">
+
+    <!-- Arquivo CSS -->
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  </head>
+  <body class="scrollspy" id="home">
+
+    <header>
+       <div class="navbar-fixed nav">
+           <nav id="menu" class="transparent z-depth-0">
+               <div class="container">
+                   <div class="nav-wrapper">
+                     <a href="#home" class="brand-logo"><img src="assets/img/logtipo.png" alt="" class="iconLogo"></a>
+                     <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                         <i class="fas fa-bars fa-2x icon" aria-hidden="true"></i>
+                     </a>
+                       <ul class="right hide-on-med-and-down">
+                           <li>
+                               <a href="#home" class="btn-flat btnText">Home</a>
+                           </li>
+                           <li>
+                               <a href="#produto" class="btn-flat btnText">Produtos</a>
+                           </li>
+                           <li>
+                             <a href="#sobre" class="btn-flat btnText">Sobre</a>
+                           </li>
+                           <li>
+                               <a href="#contato" class="btn-flat btnText">Contato</a>
+                           </li>
+                       </ul>
+                   </div>
+               </div>
+           </nav>
+       </div>
+     </header>
+
+    <section>
+      <div class="header">
+        <div class="hero-text">
+          <h1>VOCÊ DISSE BRIGADEIRO?</h1>
+          </div>
+        </div>
+    </section>
+
+    <section class="scrollspy" id="produto">
+      <div class="produto red darken-3">
+
+      </div>
+    </section>
+
+    <section class="scrollspy" id="sobre">
+      <div class="sobre">
+        <!-- <div class="humans">
+            <img src="https://res.cloudinary.com/decpgk49e/image/upload/v1560500934/erakomp/about-v2/header_hzpphq.png" alt="header" class="img-fluid">
+        </div>
+
+          <div class="container">
+            <div class="row m0">
+              <div id="intro" class="col s12 row spacer-b">
+                <div class="col s6 d-flex flex-column justify-content-center">
+                  <h3 class="">Tentang Kami</h3>
+                  <p>
+                    Erakomp Infonusa adalah perusahaan suplier barang-barang IT.<br> Termasuk didalamnya semua barang dan jasa yang berkaitan dengan teknologi informasi.<br> Kami melayani perusahaan, kantor pabrik, supermarket, pendidikan, bank, koperasi, asuransi,
+                    hingga home user atau pengguna di rumah. Kami membantu mereka memberikan solusi dibidang IT, menyediakan barang-barang yang berkualitas, bergaransi, dengan harga terbaik.<br> Semenjak berdiri tahun 1988, hingga saat ini, kami telah dipercaya
+                    untuk bekerja sama dengan berbagai vendor/produsen produk-produk IT. Para vendor tersebut memberikan dukungan sepenuhnya terhadap produk-produk yang dijual melalui erakomp.com. Dukungan yang diberikan berupa garansi terhadap produk maupun harga
+                    yang bersaing
+                  </p>
+                </div>
+                <div class="col s6 order-xs-1">
+                  <img src="https://res.cloudinary.com/decpgk49e/image/upload/v1560476748/erakomp/about-v2/PIC_1_scd7dt.png" alt="intro" class="img-fluid">
+                </div>
+              </div>
+              <div id="vision-mission" class="col s12 row spacer-b">
+                <div class="col s7">
+                  <img src="https://res.cloudinary.com/decpgk49e/image/upload/v1560476743/erakomp/about-v2/PIC_2_xcvipj.png" alt="our history" class="img-fluid">
+                </div>
+                <div class="col s5 container">
+                  <h1>Visi</h1>
+                  <p>
+                    Menjadi salah satu penyedia layanan dan perangkat IT terbaik dan terlengkap adalah visi kami
+                  </p>
+                </div>
+              </div>
+              <div id="vision-mision" class="col s12 row spacer-b">
+                <div class="col s5 d-flex flex-column">
+                  <h1>Misi</h1>
+                  <p>
+                    Dan untuk mewujudkan itu semua<br> kami akan berkomitmen<br> untuk menjaga kualitas SDM<br> meningkatkan sistem<br> menjaga mutu produk<br> dan menambah layanan sevice center<br> di seluruh indonesia
+                  </p>
+                </div>
+                <div class="col s7">
+                  <img src="https://res.cloudinary.com/decpgk49e/image/upload/v1560476743/erakomp/about-v2/PIC_3_dppugf.png" alt="vision mision" class="img-fluid">
+                </div>
+              </div>
+              <div id="partners" class="col s12 text-center d-flex flex-column justify-content-center spacer-b">
+                <p class="partner--text">
+                  Kami tidak bisa berdiri sendiri tanpa Mitra Kerja serta para Customer.<br> Kami menciptakan, mengembangkan, dan menyediakan produk dan solusi IT untuk pelanggan korporat dan individu
+                </p>
+                <!-- <img src="https://res.cloudinary.com/decpgk49e/image/upload/v1560476745/erakomp/about-v2/PIC_4_i6ezd0.png" alt="partners" class="img-fluid"> -->
+              <!-- </div>
+              <div id="history" class="text-center col s12">
+                <img src="https://res.cloudinary.com/decpgk49e/image/upload/v1560476743/erakomp/about-v2/PIC_5_kpa8ef.png" alt="partners" class="img-fluid">
+                <p>
+                  Kami telah tumbuh dan berkembarng sejak tahun 1988<br> dan kami akan melakukan lebih banyak dan melayani lebih baik di tahun- tahun mendatang
+                </p>
+              </div>
+            </div>
+          </div>
+      </div> --> -->
+    </section>
+
+    <section id="contact" class="section-bg wow fadeInUp contato">
+
+      <div class="container scrollspy" id="contato">
+
+        <div class="section-header">
+          <h2>Contato</h2>
+          <p>Entre em contato conosco ou solicite um orçamento</p>
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col m4">
+            <div class="contact-address">
+              <i class="fas fa-map-marker-alt fa-2x"></i>
+              <h3>Endereço</h3>
+              <address>A108 Adam Street, Nx 123456, XYZ</address>
+            </div>
+          </div>
+
+          <div class="col m4">
+            <div class="contact-phone">
+              <i class="fas fa-mobile-alt fa-2x"></i>
+              <h3>Telefone</h3>
+              <p><a href="tel:+155895548855">+55 (11) 97132-2850</a></p>
+            </div>
+          </div>
+
+          <div class="col m4">
+            <div class="contact-email">
+              <i class="fas fa-envelope fa-2x"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:info@example.com">vocedissebrigadeiro@business.com</a></p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="form">
+          <form action="" method="post" role="form" class="contactForm">
+            <div class="row">
+              <div class="input-field col m6">
+                <input type="text" class="validate" name="name" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                <label for="first_name">Nome</label>
+              </div>
+              <div class="input-field col m6">
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+                <span class="helper-text" data-error="wrong" data-success="right"></span>
+              </div>
+            </div>
+            <!-- <div class="row">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validation"></div>
+            </div> -->
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                <label for="textarea1">Faça seu pedido</label>
+              </div>
+            </div>
+            <div class="text-center center"><button type="submit">Enviar</button></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="container">
+        <!-- Row -->
+    			<div class="row">
+            <div class="col-md-12">
+               <!-- footer logo -->
+    					<div class="footer-logo">
+    						<a href="#"><img src="assets/img/logtipo.png" alt="scanfcode"></a>
+    					</div>
+    					<!-- /footer logo -->
+    					<!-- footer follow -->
+    					<ul class="footer-follow">
+    						<li><a href="#"><i class="fab fa-facebook-square fa-4x"></i></a></li>
+    						<li><a href="#"><i class="fab fa-twitter fa-4x"></i></a></li>
+    						<li><a href="#"><i class="fab fa-instagram fa-4x"></i></a></li>
+    						<li><a href="#"><i class="fab fa-whatsapp fa-4x"></i></a></li>
+    						<li><a href="#"><i class="fab fa-youtube fa-4x"></i></a></li>
+    					</ul>
+    					<!-- /footer follow -->
+    					<!-- footer copyright -->
+    					<div class="footer-copyright">
+    						<p>Copyright © 2019. All Rights Reserved. <a href="https://www.linkedin.com/in/ana-beatriz-rodrigues-0b1a5a173/" target="_blank">Ana Beatriz Rodrigues Lopes</a></p>
+    					</div>
+    					<!-- /footer copyright -->
+    				</div>
+    			</div>
+    			<!-- /Row -->
+    		</div>
+    		<!-- /Container -->
+	</footer>
+
+
+
+
+
+
+      <script src="node_modules/jquery/dist/jquery.min.js"></script>
+      <script src="node_modules/materialize-css/dist/js/materialize.js"></script>
+      <script src="node_modules/fontawesome-free-5.11.2-web/js/all.js"></script>
+      <script src="js/index.js"></script>
+  </body>
+</html>

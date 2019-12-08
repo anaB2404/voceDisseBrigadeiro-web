@@ -1,0 +1,33 @@
+{
+  "name": "vocedissebrigadeiro-web",
+  "version": "1.0.0",
+  "description": "Esse é o site da Você disse Brigadeiro?, desenvolvido por Ana Beatriz Rodrigues Lopes, 18 anos, Aprendiz da Claro BR, loja Boulevard TATUAPE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anaB2404/voceDisseBrigadeiro-web.git"
+  },
+  "keywords": [
+    "Brigadeiro",
+    "Brigaderia",
+    "voce",
+    "disse",
+    "brigadeiro",
+    "chocolate",
+    "gourmets"
+  ],
+  "author": "Ana Beatriz Rodrigues Lopes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anaB2404/voceDisseBrigadeiro-web/issues"
+  },
+  "homepage": "https://github.com/anaB2404/voceDisseBrigadeiro-web#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "jquery": "^3.4.1",
+    "materialize-css": "^1.0.0-rc.2"
+  }
+}
