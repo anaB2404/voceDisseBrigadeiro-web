@@ -27,7 +27,7 @@
   "homepage": "https://github.com/anaB2404/voceDisseBrigadeiro-web#readme",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "materialize-css": "^1.0.0-rc.2"
   }
 }
